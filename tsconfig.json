@@ -1,21 +1,24 @@
 {
   "compilerOptions": {
-    "target": "ES2017",
-    "module": "commonjs",
-    "lib": [
-      "es6"
+		"lib": [
+			"dom",
+      "ESNext"
     ],
-    "outDir": "./build",
     "strict": false,
-    "esModuleInterop": true,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
+    "target": "ES2017",
+    "outDir": "./build",
+    "module": "commonjs",
     "skipLibCheck": true,
+		"noEmitOnError": true,
+		"noImplicitAny": true,
+		"removeComments": true,
+		"esModuleInterop": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true
   },
-  "exclude": [
-    "node_modules",
-    ".github",
-    "docs"
-  ]
+	"include": [
+		"index.ts",
+		"src/**/*"
+	]
 }
