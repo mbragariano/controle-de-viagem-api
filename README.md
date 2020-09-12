@@ -4,34 +4,25 @@ Este projeto consiste em uma **API REST** que contém o funcionamento para contr
 
 ## 📚 Tecnologias
 
-- O objetivo dessa seção é listar  **bibliotecas**, **frameworks**, **plataformas**, **bancos de dados** e demais **tecnologias** utilizadas no projeto bem como suas **versões**.
-
-### Exemplo
-
 - NodeJS
+- Express
 - TypeScript
-- MongoDB
-- Mongoose
-- Docker
 
 ## 💢 Requisitos
 
-- Nessa seção deve-se especificar os **requisitos** para poder executar ou contribuir com projeto.
-
-### Exemplo
-
 - Git
-- NodeJS
-- Docker
-- MongoDB
-- Sistema Operacional
+- NodeJS e NPM(ou Yarn)
 
 ## 🔨 Configuração
 
-- Mostrar passo-a-passo como configurar os ambientes de **desenvolvimento** e **testes**.
-
-### Exemplo
-
 - Clonar o projeto para um diretório qualquer.
+
+```console
+$ git clone https://github.com/mbragariano/controle-de-viagem-api.git
+```
+
 - Instalar as dependências.
-- Atribuir variáveis de ambiente para cada cenário.
+
+```console
+$ npm install
+```
