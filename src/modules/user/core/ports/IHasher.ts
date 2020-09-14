@@ -1,4 +1,4 @@
-export interface IPasswordHasher {
+export interface IHasher {
 
 	encrypt(target: string, salt: number): Promise<string>;
 
