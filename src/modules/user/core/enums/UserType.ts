@@ -1,0 +1,4 @@
+export enum UserType {
+	ADMINISTRATOR = 'ADMINISTRADOR',
+	COLABORATOR = 'COLABORADOR'
+}
