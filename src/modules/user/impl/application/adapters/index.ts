@@ -1,0 +1,1 @@
+export { BcryptJsHasher } from './BcryptJsHasher';
